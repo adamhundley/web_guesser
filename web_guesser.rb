@@ -39,7 +39,6 @@ def catching_cheaters
   The SECRET NUMBER is #{SECRET_NUMBER}"
 end
 
-
 get '/' do
   guess = params['guess'].to_i
   message = check_guess(guess)
